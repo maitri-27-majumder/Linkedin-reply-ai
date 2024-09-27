@@ -19,10 +19,10 @@ This Chrome extension enhances your messaging experience on LinkedIn by providin
  - Clone the repository:
    git clone https://github.com/maitri-27-majumder/Linkedin-reply-ai/tree/main
    
-   cd linkedin-reply-ai
+  - cd linkedin-reply-ai
 - Install dependencies:
    npm install
- - Build the extension:
+ - run the extension locally:
    npm run dev
 
 ## Usage
