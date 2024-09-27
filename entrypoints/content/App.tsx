@@ -126,7 +126,7 @@ export const App: React.FC = () => {
                   className="border rounded-md text-gray-500 p-4 w-full bg-white mb-4"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  placeholder="Reply thanking for the opportunity"
+                  placeholder="Your prompt"
                 />
                 <button
                   className="bg-blue-500  gap-2 text-white px-4 py-2 items-center flex ml-auto rounded mr-2"
@@ -151,7 +151,7 @@ export const App: React.FC = () => {
               <>
                 <div className="flex flex-col space-y-4 ">
                   <div className="bg-gray-100 text-gray-500 p-4 rounded-md shadow self-end max-w-lg">
-                    {"Reply thanking for the opportunity"}
+                    {message}
                   </div>
                   <div className="bg-blue-100 text-gray-500 p-4 rounded-md shadow self-start max-w-lg">
                     {generatedMessage}
